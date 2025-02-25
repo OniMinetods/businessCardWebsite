@@ -3,8 +3,12 @@ body{
     font-style: bold;
     font-size: 17px;
 }
-p{
-    font-family: onest;
-    font-style: regular;
-    font-size: 20px;
+.education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.regular{
+    font-weight: bold;
 }
