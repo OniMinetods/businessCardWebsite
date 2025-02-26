@@ -13,18 +13,12 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-a:active{
-    color: blue;
-}
-a:visited{
-    color: purple;
+h2{
+    text-align: center;
 }
 
 .avatar{
-    width: 500px;
+    width: 300px;
     border-radius: 100px;
     box-shadow: 10px 15px 10px rgba(0,0,0,0.5);
 }
@@ -39,67 +33,33 @@ a:visited{
 .regular{
     font-weight: bold;
 }
-/* .info{
-    background-color: red;
-    max-width: 100%;
-    padding: 15px;
-    border: 5px solid green;
-    margin-left: 20px;
-} */
-/* .box-model > div{
-    float: left;
-    background: black;
-    height: 200px;
-    border: 1px solid red;
-    width: 25%;
-    box-sizing: border-box;
-} */
-
-.bg-pink{
-    background: rgb(167, 74, 109);
-}
-.bg-green{
-    background: rgb(74, 150, 74);
-}
-.bg-blue{
-    background: rgb(110, 110, 255);
-}
-.bg-red{
-    background: rgb(168, 56, 56);
-}
-.bg-purple{
-    background: rgb(126, 61, 126);
-}
-.bg-yellow{
-    background: rgb(134, 134, 42);
-}
 
 .main{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5%;
 }
 
-.main-text{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: auto;
-}
-
-.main-text h1{
-    margin: 0;
-}
-.main-text h2{
-    margin: 0;
-}
-.main-text p{
-    margin: 0;
+.main-text h1, .main-text p{
+    margin: 5px;
 }
 
 img{
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu-items{
+    display: flex;
+    gap: 20px;
 }
 
 .card {
