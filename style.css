@@ -1,17 +1,32 @@
 :root{
     scroll-behavior: smooth;
-}
-
-
-body{
     background: linear-gradient(
-        rgba(11, 0, 80, 0.7),
-        rgba(0, 0, 0, 0.8)
+        rgba(39, 39, 39),
+        rgb(15, 15, 15)
     );
     font-family: Onest;
     font-style: bold;
     font-size: 17px;
     color: #ffffff;
+}
+@media(prefer-color-sheme:dark){
+
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(37, 37, 37);
 }
 a{
     color: white;
@@ -24,7 +39,7 @@ h2{
 
 .avatar{
     width: 300px;
-    border-radius: 100px;
+    border-radius: 30px;
     box-shadow: 10px 15px 10px rgba(0,0,0,0.5);
 }
 
@@ -51,8 +66,8 @@ h2{
 
 img{
     display: block;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 0px auto 20px auto;
+
 }
 
 .top-menu{
