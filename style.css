@@ -21,6 +21,7 @@ a:visited{
 }
 
 .education{
+    margin: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,9 +31,15 @@ a:visited{
     font-weight: bold;
 }
 .avatar{
+    display: flex;
+    margin: auto;
     width: 500px;
     border-radius: 100px;
     box-shadow: 10px 15px 10px rgba(0,0,0,0.5);
+}
+.card h1{
+    text-align: center;
+    margin-bottom: 0;
 }
 /* .info{
     background-color: red;
@@ -49,6 +56,10 @@ a:visited{
     width: 25%;
     box-sizing: border-box;
 } */
+
+.bg-pink{
+    background: rgb(167, 74, 109);
+}
 .bg-green{
     background: rgb(74, 150, 74);
 }
@@ -65,8 +76,28 @@ a:visited{
     background: rgb(134, 134, 42);
 }
 
+.bg-red p{
+    text-align: center;
+}
+
 .card {
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+}
+
+.card h2{
+    margin: 5px;
+}
+
+.card li{
+    margin-bottom: 15px;
+}
+.card ul{
+    padding-left: 20px;
+    margin-left: 5px;
+}
+
+.card p{
+    margin: 5px
 }
