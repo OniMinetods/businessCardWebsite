@@ -1,5 +1,8 @@
 body{
-    background: #1e1e1e;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    );
     font-family: Onest;
     font-style: bold;
     font-size: 17px;
@@ -20,6 +23,12 @@ a:visited{
     color: purple;
 }
 
+.avatar{
+    width: 500px;
+    border-radius: 100px;
+    box-shadow: 10px 15px 10px rgba(0,0,0,0.5);
+}
+
 .education{
     margin: 5px;
     display: flex;
@@ -29,17 +38,6 @@ a:visited{
 }
 .regular{
     font-weight: bold;
-}
-.avatar{
-    display: flex;
-    margin: auto;
-    width: 500px;
-    border-radius: 100px;
-    box-shadow: 10px 15px 10px rgba(0,0,0,0.5);
-}
-.card h1{
-    text-align: center;
-    margin-bottom: 0;
 }
 /* .info{
     background-color: red;
@@ -76,28 +74,36 @@ a:visited{
     background: rgb(134, 134, 42);
 }
 
-.bg-red p{
-    text-align: center;
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+}
+
+.main-text h1{
+    margin: 0;
+}
+.main-text h2{
+    margin: 0;
+}
+.main-text p{
+    margin: 0;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
 }
 
 .card {
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-}
-
-.card h2{
-    margin: 5px;
-}
-
-.card li{
-    margin-bottom: 15px;
-}
-.card ul{
-    padding-left: 20px;
-    margin-left: 5px;
-}
-
-.card p{
-    margin: 5px
 }
