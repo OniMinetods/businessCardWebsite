@@ -74,10 +74,8 @@ body {
   padding: 100px 0;
 }
 .project {
-  min-width: 20%;
-  text-align: center;
+  padding: 60px;
   margin: 20px;
-  padding: 40px;
   border-radius: 20px;
   background: gray;
 }
