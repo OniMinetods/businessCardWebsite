@@ -56,22 +56,21 @@ body {
   border-radius: 30px;
   box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
 }
-
-.education {
-  margin: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
 .regular {
   font-weight: bold;
 }
 
 .main {
-  text-align: center;
-  margin: 0 auto;
-  padding: 100px 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(29, 29, 29);
+}
+
+.main-text{
+  
 }
 .project {
   padding: 60px;
@@ -86,13 +85,12 @@ body {
   flex-wrap: wrap;
 }
 
-.main-text h1,
-.main-text p {
-  margin: 5px;
+.about{
+  padding: 15px 20px;
+  margin: 20px 20px;
 }
 
 img {
-  display: block;
   margin: 0px auto 20px auto;
 }
 
@@ -110,10 +108,4 @@ img {
 .menu-items {
   display: flex;
   gap: 20px;
-}
-
-.card {
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border-radius: 20px;
 }
