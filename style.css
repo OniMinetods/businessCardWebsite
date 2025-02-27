@@ -36,6 +36,9 @@ a {
   color: white;
   text-decoration: none;
 }
+a::selection{
+  color: rgb(0, 0, 204);
+}
 
 h2 {
   text-align: center;
@@ -49,12 +52,6 @@ body {
   position: fixed;
 }
 
-.contacts {
-  display: block;
-  text-align: center;
-  margin: auto;
-}
-
 .avatar {
   width: 300px;
   border-radius: 30px;
@@ -64,15 +61,21 @@ body {
   font-weight: bold;
 }
 
+.portfolio h2{
+  padding: 144px 0;
+}
+
+.portfolio{
+  margin-bottom: 40px;
+}
+
 .main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(29, 29, 29);
 }
-
 .main-text{
   text-align: center;
 }
@@ -98,8 +101,7 @@ body {
 }
 
 .about{
-  padding: 15px 20px;
-  margin: 20px 20px;
+  padding: 144px 0;
 }
 
 img {
@@ -120,4 +122,25 @@ img {
 .menu-items {
   display: flex;
   gap: 20px;
+}
+
+.container-footer-section{
+  width: 100%;
+}
+
+.contacts {
+  padding: 10px;
+}
+
+.contacts li{
+  list-style-type: none;
+}
+
+.copyright{
+  padding: 20px 0;
+}
+.copyright-text{
+  margin: 0 auto;
+  text-align: center;
+  opacity: .5;
 }
