@@ -36,8 +36,8 @@ a {
   color: white;
   text-decoration: none;
 }
-a::selection{
-  color: rgb(0, 0, 204);
+a:link{
+  color: rgb(69, 69, 255);
 }
 
 h2 {
@@ -101,7 +101,8 @@ body {
 }
 
 .about{
-  padding: 144px 0;
+  padding: 144px 40px;
+
 }
 
 img {
@@ -126,10 +127,6 @@ img {
 
 .container-footer-section{
   width: 100%;
-}
-
-.contacts {
-  padding: 10px;
 }
 
 .contacts li{
