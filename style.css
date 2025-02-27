@@ -6,6 +6,10 @@
   font-size: 17px;
   color: #ffffff;
 }
+*{
+  box-sizing: border-box;
+}
+
 @media (prefer-color-sheme: dark) {
 }
 ::-webkit-scrollbar {
@@ -70,19 +74,27 @@ body {
 }
 
 .main-text{
-  
+  text-align: center;
 }
 .project {
-  padding: 60px;
-  margin: 20px;
-  border-radius: 20px;
-  background: gray;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 16px;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.projects .project{
+  width: clamp(50px, 100%, 300px);
 }
 
 .projects {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  flex-wrap: wrap;
+  align-content: center;
 }
 
 .about{
