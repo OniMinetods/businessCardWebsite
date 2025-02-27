@@ -24,6 +24,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(37, 37, 37);
 }
+.bg-gray {
+  background: rgb(84, 84, 84);
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -69,12 +73,19 @@ body {
   margin: 0 auto;
   padding: 100px 0;
 }
-
-.projects {
-  padding: 15px 20px;
-  display: flex;
+.project {
+  min-width: 20%;
+  text-align: center;
+  margin: 20px;
+  padding: 40px;
   border-radius: 20px;
   background: gray;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-text h1,
