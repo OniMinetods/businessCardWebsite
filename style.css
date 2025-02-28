@@ -62,9 +62,13 @@ body {
   font-weight: bold;
 }
 
+.portfolio{
+  height: 50vh;
+  padding: 50px;
+}
+
 .portfolio h2{
-  padding: 20px 0;
-  margin: 144px 0;
+  margin: 20px 0;
 }
 
 .main {
@@ -100,8 +104,12 @@ body {
 }
 
 .about{
-  padding: 60px 40px;
-  margin-bottom: 144px;
+  padding: 60px 20px;
+  height: 75vh;
+}
+
+.about p{
+  text-align: center;
 }
 
 .frontend, .backend, .SDE, .platform, .other{
@@ -110,6 +118,13 @@ body {
 
 .steck{
   display: flex;
+  flex-direction: column;
+  margin-bottom: 432px;
+}
+
+.steck-items{
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 
