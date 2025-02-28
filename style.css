@@ -3,7 +3,7 @@
   background: linear-gradient(rgba(39, 39, 39), rgb(15, 15, 15));
   font-family: Onest;
   font-style: bold;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
 }
 *{
@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 a:link{
-  color: rgb(69, 69, 255);
+  color: rgb(88, 88, 255);
 }
 
 h2 {
@@ -65,10 +65,12 @@ body {
 .portfolio{
   height: 50vh;
   padding: 50px;
+  margin-bottom: 200px;
 }
 
 .portfolio h2{
   margin: 20px 0;
+  
 }
 
 .main {
@@ -80,6 +82,7 @@ body {
 }
 .main-text{
   text-align: center;
+  font-size: 30px;
 }
 .project {
   width: 100%;
@@ -105,7 +108,7 @@ body {
 
 .about{
   padding: 60px 20px;
-  height: 75vh;
+  margin-bottom: 500px;
 }
 
 .about p{
