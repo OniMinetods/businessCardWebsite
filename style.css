@@ -53,8 +53,9 @@ body {
 }
 
 .avatar {
-  width: 300px;
-  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
   box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
 }
 .regular {
@@ -127,12 +128,21 @@ img {
   width: 100%;
 }
 
+.contacts{
+  padding: 24px;
+}
+
+.contacts h2{
+  margin-bottom: 20px;
+}
+
 .contacts li{
   list-style-type: none;
 }
 
 .copyright{
-  padding: 20px 0;
+  padding: 10px 0;
+  background: rgb(10, 10, 10);
 }
 .copyright-text{
   margin: 0 auto;
